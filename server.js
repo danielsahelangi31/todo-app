@@ -16,17 +16,17 @@ app.get('/', (req, res) => {
 let database = [
     {
         id : 1,
-        teks : "belajar rest api",
-        completed : false
+        deskripsi : "belajar rest api",
+        completed : true
     },
     {
         id : 2,
-        teks : "belajar rest api 2",
+        deskripsi : "belajar rest api 2",
         completed : false
     },
     {
         id : 3,
-        teks : "belajar rest api 3",
+        deskripsi : "belajar rest api 3",
         completed : false
     },
 ]
